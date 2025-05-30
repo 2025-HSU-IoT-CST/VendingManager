@@ -6,8 +6,8 @@ import aws.sdk.kotlin.services.dynamodb.DynamoDbClient
 object AwsClients {
     private const val REGION = "ap-northeast-2"
     // 1) IAM 사용자의 액세스 키
-    private const val ACCESS_KEY = "AKIAUAKDMYKOYWLOU37N"
-    private const val SECRET_KEY = "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"  // 절대 깃에 올리지 마세요!
+    private const val ACCESS_KEY = "xxxxxxxxxxxxxxxxxxxxx"
+    private const val SECRET_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxx"  // 절대 깃에 올리지 마세요!
 
     private val provider = StaticCredentialsProvider {
         accessKeyId = ACCESS_KEY
