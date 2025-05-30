@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AI 자판기 관리자</string>
+    <string name="channel_id">low_stock_channel</string>
+    <string name="channel_name">재고 알림</string>
+    <string name="channel_description">재고 2개 이하 상품 알림</string>
+</resources>
